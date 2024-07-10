@@ -1,0 +1,58 @@
+body, html {
+    font-family: "Passion One", sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #99f5b8;
+    
+}
+h1 {
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #246138;
+}
+h6 {
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #246138;
+}
+
+#game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#game-board {
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 50px #39ad60;
+    position: relative;
+    padding: 5px;
+}
+
+.snake {
+    width: 20px;
+    height: 20px;
+    background-color: #4eff89;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+.food {
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background-color: #246138;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+#score {
+    margin-top: 10px;
+    font-size: 50px;
+    color: #246138;
+}
